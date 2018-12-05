@@ -47,7 +47,16 @@ For this website, I'm using the following procedure to install Jekyll and write 
     sudo bundle install
     ``` 
         
-3. Start hacking the various HTML templates and Markdown files.
+3. Start hacking the various HTML templates and Markdown files. You can run the following command to have Jekyll re-render all your pages on every change and allow you to refresh the browser to see your changes.
+    ```bash
+    jekyll serve
+    ```
+
+4. Reading further, there's a feature for GitHub pages to auto-build your Jekyll site. I'm following this [guide](http://jmcglone.com/guides/github-pages/). After enabling the GitHub pages feature in my project settings, modifying my blog templates and writing this post, I'm pushing the changes to GitHub.
+    ```bash
+    git commit -m "Initial Commit"
+    git push
+    ``` 
 
 ### Other resources
 
