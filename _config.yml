@@ -1,0 +1,41 @@
+# Site
+name: "Source"
+description: "Reference"
+meta_description: "software engineering, devops, kubernetes, linux, bash, nodejs, programming, application development, docker containers, containerization"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+#google_analytics: 'UA-46278016-1'
+#disqus: 'demowebsite'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  samuel:
+    name: Samuel Loh
+    display_name: Samuel
+    gravatar: 945829c17e100d8b130f38bc3dc60247
+    email: samuel.loh.yk@gmail.com
+    web: https://samloh84.github.io/source
+    description: "Polyglot Web programmer and Linux Administration, PKI and Docker enthusiast"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+highlighter: rouge
