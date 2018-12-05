@@ -39,3 +39,9 @@ paginate_path: /page:num/
 # Other
 markdown: kramdown
 highlighter: rouge
+
+exclude:
+  - Makefile
+  - Gemfile
+  - Gemfile.lock
+
