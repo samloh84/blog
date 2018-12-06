@@ -63,7 +63,7 @@ Other common aspects of my projects is that I love writing Singleton or Static u
    
 One of the things I have to improve upon is my documentation. The above work process is well defined enough to explain what's going on in each project (self-documenting code), but other things that can't be captured in code, like design considerations and decisions should go into Markdown or plaintext readme files in the project root or the ```docs/``` directory.
 
-I also like to write alot of Bash scripts, Dockerfiles and Docker Compose files to perform common tasks. Like installing required libraries, or running databases in Docker containers. These also go into the project root directory. The important ones go into the ```bin/``` directory. 
+I also like to write a lot of Bash scripts, Dockerfiles and Docker Compose files to perform common tasks. Like installing required libraries, or running databases in Docker containers. These also go into the project root directory. The important ones go into the ```bin/``` directory. 
 
 Occasionally, when the application needs to be of a certain quality, I will write test cases for it in the ```tests/``` directory. The testing directory structure closely resembles the project directory structure and contains all the unit test cases to test each component.
 
