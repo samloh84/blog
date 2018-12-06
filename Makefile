@@ -1,14 +1,14 @@
-.PHONY: all build push run
+.PHONY: all build push serve
 
 build:
 	set -x && \
-	bundle exec jekyll build --incremental
+	bundle exec jekyll build
 
 push:
 	set -x && \
 	git push
 
-run:
+serve:
 	set -x && \
 	bundle exec jekyll serve
 

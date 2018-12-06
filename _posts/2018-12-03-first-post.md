@@ -6,6 +6,7 @@ categories: [ blogging, jekyll, markdown ]
 image: https://images.unsplash.com/photo-1543545342-eeb71c9a7407?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf15f8e35cfcf5ceb4adc69aecca59ff&auto=format&fit=crop&w=2550&q=80
 featured: false
 hidden: false
+comments: true
 ---
 
 First Post!

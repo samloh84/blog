@@ -4,8 +4,9 @@ title:  "Anatomy of a Web Application"
 author: samuel
 categories: [ application-development ]
 image: https://images.unsplash.com/photo-1479839672679-a46483c0e7c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2754&q=80
-featured: false
+featured: true
 hidden: false
+comments: true
 ---
 
 When writing my web applications, I follow a number of standards that I learnt during my software engineering Bachelor's degree and my career. While the programming language I use differs from project to project, I always end up with the same project layout and coding style. My colleagues generally identify my code as Java-like, regardless of whether it's written in PHP, Node.JS or Python.
@@ -64,5 +65,8 @@ One of the things I have to improve upon is my documentation. The above work pro
 
 I also like to write alot of Bash scripts, Dockerfiles and Docker Compose files to perform common tasks. Like installing required libraries, or running databases in Docker containers. These also go into the project root directory. The important ones go into the ```bin/``` directory. 
 
-Occasionally, when the application needs to be of a certain quality, I will write test cases for it in the ```tests/``` directory. The testing directory structure closely resembles the project directory structure and contains all the unit test cases to test each component. 
+Occasionally, when the application needs to be of a certain quality, I will write test cases for it in the ```tests/``` directory. The testing directory structure closely resembles the project directory structure and contains all the unit test cases to test each component.
+
+Having a standard way to organize your application logic certainly helps in maintaining it down the line. If you are working with other developers, deciding on the same coding patterns will also help in productivity of the team.
+ 
 
