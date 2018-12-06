@@ -2,7 +2,7 @@
 layout: post
 title:  "First Post!"
 author: samuel
-categories: [ ]
+categories: [ blogging, jekyll, markdown ]
 image: https://images.unsplash.com/photo-1543545342-eeb71c9a7407?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cf15f8e35cfcf5ceb4adc69aecca59ff&auto=format&fit=crop&w=2550&q=80
 featured: false
 hidden: false
@@ -49,7 +49,7 @@ For this website, I'm using the following procedure to install Jekyll and write 
         
 3. Start hacking the various HTML templates and Markdown files. You can run the following command to have Jekyll re-render all your pages on every change and allow you to refresh the browser to see your changes.
     ```bash
-    jekyll serve
+    bundle exec jekyll serve
     ```
 
 4. Reading further, there's a feature for GitHub pages to auto-build your Jekyll site. I'm following this [guide](http://jmcglone.com/guides/github-pages/). After enabling the GitHub pages feature in my project settings, modifying my blog templates and writing this post, I'm pushing the changes to GitHub.

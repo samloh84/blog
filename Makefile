@@ -2,7 +2,7 @@
 
 build:
 	set -x && \
-	jekyll build --incremental
+	bundle exec jekyll build --incremental
 
 push:
 	set -x && \
@@ -10,6 +10,6 @@ push:
 
 run:
 	set -x && \
-	jekyll serve
+	bundle exec jekyll serve
 
 all: build push
