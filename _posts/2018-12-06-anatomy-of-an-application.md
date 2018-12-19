@@ -12,7 +12,7 @@ comments: true
 When writing my web applications, I follow a number of standards that I learnt during my software engineering Bachelor's degree and my career. While the programming language I use differs from project to project, I always end up with the same project layout and coding style. My colleagues generally identify my code as Java-like, regardless of whether it's written in PHP, Node.JS or Python.
 
 Here is an ASCII tree that shows my typical project structure for an application.
-```
+```text
 project_dir
 ├── bin/
 ├── routes/
@@ -28,6 +28,7 @@ project_dir
 ├── views/
 ├── docs/
 ├── tests/
+├── .gitignore
 ├── Makefile
 ├── TODO.md
 └── README.md
