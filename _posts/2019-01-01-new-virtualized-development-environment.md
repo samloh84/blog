@@ -3,7 +3,7 @@ layout: post
 title:  "Building a new Virtualized Development Environment"
 author: samuel
 categories: [ virtualization, application-development ]
-image: https://images.unsplash.com/photo-1524347258796-81291228cfc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80
+image: https://images.unsplash.com/photo-1532709683012-8cb9d3065357?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2708&q=80
 featured: true
 hidden: false
 comments: true
