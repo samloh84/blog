@@ -12,7 +12,7 @@ comments: true
 Continuing on from the [last post]({% post_url 2018-12-19-starting-a-nodejs-express-web-application %}) where I wrote a example Node.js web application, I'll be writing a test framework for it in this post.
 
 
-Building a Node.js test harness is simple enough. I use `mocha` to run all my test scripts and `chai` which allows me to define my test assertions with a nice [expect syntax](https://www.chaijs.com/guide/styles/#expect). To work with promises, I use `chai-as-promised`. Finally, for testing Express routes, I'm using `supertest`.
+Building a Node.js test harness is simple enough. I use [`mocha`](https://mochajs.org/) to run all my test scripts and [`chai`](https://www.chaijs.com/) which allows me to define my test assertions with a nice [expect syntax](https://www.chaijs.com/guide/styles/#expect). To work with promises, I use [`chai-as-promised`](https://github.com/domenic/chai-as-promised). Finally, for testing Express routes, I'm using [`supertest`](https://github.com/visionmedia/supertest).
 
 ```bash
 

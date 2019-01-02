@@ -74,12 +74,10 @@ nvm install node
 ```
 
 #### Python
-For [Python](https://www.python.org/downloads/), I will be using pyenv and its virtualenv plugin. 
+For [Python](https://www.python.org/downloads/), I will be using [`pyenv`](https://github.com/pyenv/pyenv) and its [`pyenv-virtualenv`]() plugin. `pyenv` offers an installer script [`pyenv-installer`](https://github.com/pyenv/pyenv-installer) 
 
 ```bash
 curl -L https://github.com/pyenv/pyenv-installer/raw/master/bin/pyenv-installer | bash
-git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
-echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.bash_profile
 pyenv install-latest
 pyenv install-latest 2.7
 ```

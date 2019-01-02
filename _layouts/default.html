@@ -78,6 +78,14 @@
                 </li>
 
 
+                {% if page.url == "/links.html" %}
+                <li class="nav-item active">
+                    {% else %}
+                <li class="nav-item">
+                    {% endif %}
+                    <a class="nav-link" href="{{ site.baseurl }}/links">Links</a>
+                </li>
+
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/samloh84"><i class="fab fa-github"></i> GitHub</a>
                 </li>
