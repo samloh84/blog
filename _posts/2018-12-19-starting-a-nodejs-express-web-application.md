@@ -58,7 +58,9 @@ I usually install some combination of the following libraries that I always end 
 | [Sequelize](https://www.npmjs.com/package/sequelize)<br/>[<sub>Docs</sub>](https://sequelize.readthedocs.io/en/v3/) | Object relational Mapper Libary for working with SQL databases like PostgreSQL or MySQL | `npm install --save sequelize` |
 | [Passport](https://www.npmjs.com/package/passport)<br/>[<sub>Docs</sub>](http://www.passportjs.org/) | Authentication Library to secure your endpoints | `npm install --save passport` |
 | [Winston](https://www.npmjs.com/package/winston)<br/>[<sub>Docs</sub>](https://github.com/winstonjs/winston) | Logging Library | `npm install --save winston` |
+| [cron](https://www.npmjs.com/package/cron)<br/>[<sub>Docs</sub>](https://github.com/kelektiv/node-cron) | Library to run Cron scheduled tasks | `npm install --save cron` |
 
+https://www.npmjs.com/package/cron
 
 For this project, I'll be using all of the above libraries except Sequelize and Superagent.
 
