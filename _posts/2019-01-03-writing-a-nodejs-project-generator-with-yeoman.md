@@ -3,7 +3,7 @@ layout: post
 title:  "Writing a Node.js Project Generator with Yeoman"
 author: samuel
 categories: [ nodejs, yeoman, code-generation, application-development ]
-image: https://images.unsplash.com/photo-1524347258796-81291228cfc9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2468&q=80
+image: https://images.unsplash.com/photo-1449247666642-264389f5f5b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2549&q=80
 featured: true
 hidden: false
 comments: true
@@ -14,6 +14,7 @@ While writing [my post on starting a Node.js application]({% post_url 2018-12-19
 [Yeoman](https://yeoman.io) is a Node.js command line utility that offers several [generators]((https://yeoman.io/generators/)). It even offers a [generator](https://github.com/yeoman/generator-generator) to create Yeoman generators.
 
 ![A fine image from Yeoman's generator-generator Github page](https://camo.githubusercontent.com/f8dc3e07d956f1f8dbdea5f895800fe53772a50d/687474703a2f2f692e696d6775722e636f6d2f326771696966742e6a7067)
+
 <sub>A fine image from Yeoman's generator-generator Github page</sub>
 
 To begin with, install Yeoman and the generator-generator, which generates generator projects. Then create your project directory, which should be prefixed with the word `generator-`.
@@ -47,6 +48,7 @@ It is possible to use EJS templates to dynamically render text files, but I'm no
 When copying the package.json, I am going to dynamically modify it, asking the same questions that `npm init` would ask. Since all the dependencies are already listed in package.json, the generators final internal `npm install` will install all the dependencies.
 
 `generators/app/index.js`
+```javascript
 'use strict';
 const Generator = require('yeoman-generator');
 const Promise = require('bluebird');
