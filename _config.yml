@@ -1,13 +1,12 @@
 # Site
 name: "Source"
-description: "Reference"
+description: "Reference how-to articles on app development and devops automation"
 meta_description: "software engineering, devops, kubernetes, linux, bash, nodejs, programming, application development, docker containers, containerization"
 logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
 baseurl: '/blog'
 google_analytics: 'UA-42302418-2'
 disqus: 'samloh84-blog'
-#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 # Authors
 authors:
@@ -16,7 +15,7 @@ authors:
     display_name: Samuel
     gravatar: 945829c17e100d8b130f38bc3dc60247
     email: samuel.loh.yk@gmail.com
-    web: https://samloh84.github.io/source
+    web: https://samloh84.github.io/blog
     description: "Polyglot Web programmer and Linux Administration, PKI and Docker enthusiast"
 
 # Plugins
